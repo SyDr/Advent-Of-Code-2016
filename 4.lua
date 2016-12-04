@@ -56,7 +56,7 @@ local function rotate(s, num)
     if l == '-' then
       l = ' '
     else
-			l =  string.char((l:byte() - string.byte('a') + num) % 26 + string.byte('a'))
+      l =  string.char((l:byte() - string.byte('a') + num) % 26 + string.byte('a'))
     end
     
     result = result .. l
