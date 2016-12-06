@@ -1,6 +1,3 @@
-local lpeg = require'lpeg'
-local pp = require'pretty'
-
 local data = {}
 for line in io.lines("6.txt") do
   for i = 1, string.len(line) do
