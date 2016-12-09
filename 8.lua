@@ -44,7 +44,7 @@ local data = {}
 for i = 0, columns - 1 do
   data[i] = {}
   for j = 0, rows - 1 do
-    data[i][j] = '.'
+    data[i][j] = ' '
   end
 end
 
